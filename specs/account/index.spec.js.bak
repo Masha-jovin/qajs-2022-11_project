@@ -184,18 +184,7 @@ describe('2.1. Создание книги POST /BookStore/v1/Books', () => {
     })
 	
 	
-		/* это не работает((( userID и token не подтягиваются
-		test.each`
-		userIDt | tokent | isbnNewt | resultsCode				
-		${'uncorrectUserID'} | ${this.token} | ${config.isbns[2]} | ${401}
-		${this.userID} | ${'uncorrectToken'} | ${config.isbns[3]} | ${401}
-		${this.userID} | ${this.token} | ${config.isbns[9]} | ${400}
-		`('Неуспешное удаление: при $userIDt, $tokent, $isbnNewt возвращается $resultsCode', async ({userIDt,tokent,isbnNewt,resultsCode}) => {	  
-      const res = await bookstore.deleteBook(userIDt,tokent,isbnNewt)	 
-	  console.log('4. res Удаление книги',res.text)	    // для красоты
-      expect(res.status).toEqual(resultsCode);	 
-    })
-	*/
+	
 		
 	
   })
