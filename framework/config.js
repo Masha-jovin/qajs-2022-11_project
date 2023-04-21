@@ -1,7 +1,7 @@
 const config={
 	url:'https://bookstore.demoqa.com',	// базовый url
 	credentials: {
-		userName: 'testLogin31',
+		userName: 'testLogin33',
 		password:'1testPass%'
 	},
 	
